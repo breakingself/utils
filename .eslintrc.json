@@ -1,0 +1,30 @@
+{
+  "root": true,
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  },
+  "extends": [
+    "airbnb",
+    "eslint:recommended"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "rules": {
+    "import/prefer-default-export": "off",
+    "import/no-extraneous-dependencies": "off",
+    "no-restricted-globals": "off",
+    "camelcase": "off",
+    "no-undef":"off",
+    "no-plusplus": [ "warn", { "allowForLoopAfterthoughts": true } ],
+    "indent": ["warn", 2, { "SwitchCase": 1 }],
+    "quotes": ["warn", "single"],
+    "no-unused-vars": "warn",
+    "semi": ["warn", "always"],
+    "no-trailing-spaces": "warn",
+    "no-console": "warn"
+  }
+}
