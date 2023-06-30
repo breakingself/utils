@@ -2,6 +2,7 @@
   "name": "dtable-utils",
   "version": "0.0.1",
   "description": "",
+  "type": "module",
   "main": "src/index.js",
   "module": "build/index.es.js",
   "author": "seafile",
@@ -9,7 +10,7 @@
   "scripts": {
     "test": "jest --watchAll",
     "eslint": "eslint ./src/**",
-    "build": "rm -rf build && rollup -c --bundleConfigAsCjs",
+    "build": "rm -rf build && rollup -c",
     "prepublish": "npm run build"
   },
   "keywords": [],
