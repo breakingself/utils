@@ -367,4 +367,6 @@
   exports.getDurationDisplayString = getDurationDisplayString;
   exports.getNumberDisplayString = getNumberDisplayString;
 
+  Object.defineProperty(exports, '__esModule', { value: true });
+
 }));

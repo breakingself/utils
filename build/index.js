@@ -1,5 +1,7 @@
 'use strict';
 
+Object.defineProperty(exports, '__esModule', { value: true });
+
 function _defineProperty(obj, key, value) {
   key = _toPropertyKey(key);
   if (key in obj) {
