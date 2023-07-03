@@ -2,12 +2,12 @@
   "name": "@breakingself/utils",
   "version": "0.0.5",
   "description": "",
-  "main": "./lib/index.js",
+  "main": "./es/index.js",
   "private": false,
   "scripts": {
     "test": "jest -c --watchAll",
     "eslint": "eslint ./src/**",
-    "build": "rm -rf lib && rollup -c",
+    "build": "rm -rf es && rollup -c",
     "prepublish": "npm run build"
   },
   "keywords": [

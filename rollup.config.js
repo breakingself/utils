@@ -10,7 +10,7 @@ export default defineConfig({
   ],
   output: [
     {
-      dir: './lib',
+      dir: './es',
       format: 'es',
       exports: 'named',
       preserveModules: true,
