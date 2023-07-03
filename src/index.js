@@ -12,19 +12,9 @@ export {
   FORMULA_COLUMN_TYPES_MAP,
 } from './constants/column';
 
-// lib
-// lib-dayjs
-export {
-  dayjs,
-} from './lib/dayjs';
-export {
-  utc,
-} from './lib/dayjs/plugins';
-
 // utils
 export {
   getDurationDisplayString,
   getNumberDisplayString,
-  getFloatNumber,
   isValidEmail,
 } from './utils';
