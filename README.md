@@ -4,7 +4,7 @@
 ## 项目结构
 ```bash
 .
-├── dist                   # 打包目录
+├── lib                    # 打包目录
 ├── src
 │   ├── constants          # 通用常量
 │   ├── lib                # 依赖
