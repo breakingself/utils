@@ -15,7 +15,7 @@
     "JavaScript"
   ],
   "files": [
-    "lib",
+    "es",
     "package.json"
   ],
   "devDependencies": {
