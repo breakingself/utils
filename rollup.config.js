@@ -13,21 +13,21 @@ export default defineConfig({
     {
       format: 'iife',
       name: 'DTableUtils',
-      file: './build/index.iife.js',
+      file: './dist/index.iife.js',
       plugins: [terser()]
     },
     {
       format: 'umd',
       name: 'DTableUtils',
-      file: './build/index.umd.js',
+      file: './dist/index.umd.js',
     },
     {
       format: 'cjs',
-      file: './build/index.js',
+      file: './dist/index.js',
     },
     {
       format: 'es',
-      file: './build/index.es.js',
+      file: './dist/index.es.js',
     },
   ],
   plugins: [

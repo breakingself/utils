@@ -48,6 +48,21 @@ const minus = (numLeft, numRight) => {
   return (times(numLeft, baseNum) - times(numRight, baseNum)) / baseNum;
 };
 
+/**
+ * exact division
+ */
+const divide = (numLeft, numRight) => {
+  const num1Changed = float2Fixed(numLeft);
+  const num2Changed = float2Fixed(numRight);
+
+  // fix: e.g. 10 ** -4 = 0.00009999999999999999，use 'strip' to fix
+  return times(
+    num1Changed / num2Changed,
+    strip(10 ** (digitLength(numRight) - digitLength(numLeft))),
+  );
+};
+
 export {
   minus as NPminus,
+  divide as NPdivide,
 };
